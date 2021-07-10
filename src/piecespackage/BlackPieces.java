@@ -25,6 +25,7 @@ public class BlackPieces extends ChessPieces {
 			
 		}
 		
+		//TRANSFERING THE blackPieces VALUES TO vector
 		for(int k = 6; k < 8; k++) {
 			for(int x = 0; x < 8; x++) {
 				vector[k][x] = blackPieces[k][x];
