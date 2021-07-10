@@ -1,5 +1,6 @@
 package piecespackage;
 
+//GIVING EACH CHESS PIECE A VALUE ---> STANDARDIZE
 public class ChessPieces {
 	
 	private static final int king = 7;
