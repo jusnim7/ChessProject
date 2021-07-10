@@ -1,11 +1,12 @@
 package mainpackage;
 
-import chesstablepackage.ChessTable;
+import chesstablepackage.ChessBoard;
 
 public class Main {
 
 	public static void main(String[] args) {
-		//new ChessTable();
+		
+		new ChessBoard();
 
 	}
 

@@ -1,5 +1,7 @@
 package piecesmovementpackage;
 
-public class King {
+import selectedpiecepackage.SelectedQuadrant;
+
+public class King extends SelectedQuadrant {
 	
 }

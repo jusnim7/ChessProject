@@ -2,7 +2,7 @@ package selectedpiecepackage;
 
 import java.util.Scanner;
 
-import chesstablepackage.ChessTable;
+import chesstablepackage.ChessBoard;
 
 public class SelectedQuadrant {
 
@@ -10,7 +10,7 @@ public class SelectedQuadrant {
 	private static int secondKey;
 
 	Scanner input = new Scanner(System.in);
-	ChessTable initialChessTable = new ChessTable();
+	ChessBoard initialChessTable = new ChessBoard();
 	static int tableChess[][] = new int[8][8];
 
 	public SelectedQuadrant() {
@@ -28,7 +28,7 @@ public class SelectedQuadrant {
 
 			switch (secondKey) {
 
-			case 1:
+			case 1:	
 
 				if (tableChess[0][0] == 7) {
 
@@ -261,7 +261,7 @@ public class SelectedQuadrant {
 				if (tableChess[1][4] == 7) {
 
 				} else if (tableChess[1][4] == 6) {
-
+					
 				} else if (tableChess[1][4] == 5) {
 
 				} else if (tableChess[1][4] == 4) {
