@@ -12,8 +12,7 @@ public class ChessBoard {
 	
 	public ChessBoard() {
 
-
-		
+		//PUTTING WHITE AND BLACK ON THE INITIAL POSITION ON chessBoard
 		initialWhitePosition.whitePieces(chessBoard);
 		initialBlackPosition.blackPieces(chessBoard);
 
@@ -27,7 +26,7 @@ public class ChessBoard {
 				
 			} 
 			
-			System.out.println(" | l"+ linha);
+			System.out.println(" | l"+ (9-linha));
 			linha++;
 		}
 		System.out.println("------------------");
@@ -36,6 +35,7 @@ public class ChessBoard {
 		
 	}
 	
+	//METHOD TO PUT ANY 8x8 VECTOR WITH THE CHESS GAME INITIAL PIECES POSITION
 	public void putAllPiecesInInitialPosition(int[][] vector){
 		
 		for(int k = 0; k < 8; k++) {
