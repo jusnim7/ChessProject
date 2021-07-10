@@ -1,6 +1,6 @@
 package piecespackage;
 
-abstract public class ChessPieces {
+public class ChessPieces {
 	
 	private static final int king = 7;
 	private static final int queen = 6;
