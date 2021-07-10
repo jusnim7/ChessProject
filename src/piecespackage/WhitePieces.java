@@ -2,7 +2,7 @@ package piecespackage;
 
 public class WhitePieces extends ChessPieces {
 	
-	int whitePieces[][] = new int[8][8];
+	int whitePieces[][] = new int[2][8];
 
 	public void whitePieces(int[][] vector) {
 		
@@ -25,7 +25,8 @@ public class WhitePieces extends ChessPieces {
 			
 		}
 		
-		for(int k = 0; k < 8; k++) {
+		//TRANSFERING THE whitePieces VALUES TO vector
+		for(int k = 0; k < 2; k++) {
 			for(int x = 0; x < 8; x++) {
 				vector[k][x] = whitePieces[k][x];
 			}
